@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch Me</title>
+</head>
+<style>
+    body{
+        margin: 0%;
+    }
+    .topic{
+        height: 75px;
+        width: 100%;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        background:purple;
+    }
+    canvas{
+        background: tan;
+    }
+    #scr{
+        margin-left: 78%;
+        font-size: 40px;
+        margin-top: -4.3%;
+        position: absolute;
+    }
+    #bear{
+        position: absolute;
+        width: 270px;
+        height: 220px;
+        margin-left: 80px;
+        margin-top: 8px;
+    }
+    #animal{
+        position: absolute;
+        height: 220px;
+        width: 270px;
+        margin-left: 1020px;
+        margin-top: 50px;
+    }
+    canvas{
+        text-align: center;
+    }
+    #hscr{
+        margin-left: 2%;
+        font-size: 40px;
+        margin-top: 1.5%;
+        position: absolute;
+    }
+</style>
+<script src="Catch_Me.js" defer></script>
+<body>
+    
+    <div class="topic">
+        <h2 id="hscr" > High Score : 0</h2>
+        CATCH THE BEAR
+        <h2 id="scr">Score : 0</h2>
+    </div>
+    <img src="Bear.jpeg" id="bear" alt="">
+    <img src="Armodilla.jpeg" id="animal" alt="">
+    <canvas id="canvas"></canvas>
+</body>
+</html>
